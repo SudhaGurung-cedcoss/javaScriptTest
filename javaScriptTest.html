@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="javaScriptTest.css">
+</head>
+<body>
+<div class="flex-container">
+    <div class="innerContainer">
+        <h3> Product 1</h3>
+       <p>product Description</p>
+       <p>expertise</p>
+       <p>$5.05</p>
+       <button id="btn" onclick="addToCart(0)">Add to cart</button>
+    </div>
+  
+    <div class="innerContainer">
+    <h3> Product 2</h3>
+     <p>product Description</p>
+     <p>expertise</p>
+     <p>$8.05</p>
+     <button id="btn" onclick="addToCart(1)">Add to cart</button>
+    </div>
+    
+    <div class="innerContainer">
+    <h3> Product 3</h3>
+    <p>product Description</p>
+    <p>expertise</p>
+    <p>$10.05</p>
+    <button id="btn" onclick="addToCart(2)">Add to cart</button>
+    </div>
+   </div>
+
+<table>
+    <thead>
+       <tr>
+        <td>Product</td>
+        <td>Price</td>
+        <td>Quantity</td>
+        <td>Amount</td>
+       
+       </tr>
+    </thead>
+    <tbody id="tbody">
+
+
+    </tbody>
+
+</table>
+
+
+<div> 
+    <button id="btn" onclick="emptycart()" style="margin-left: 344px;
+    margin-top: 120px;">Empty Cart</button>
+</div>
+
+ <script src="javaScriptTest.js"></script>   
+</body>
+</html>

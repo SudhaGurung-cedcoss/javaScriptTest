@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.flex-container{
+    display: flex;
+    margin-top: 63px;
+    margin-left: 68px;
+}
+.innerContainer{
+    width:25%;
+    height: 10vh;
+}
+
+#btn{
+    background-color: orangered;
+    background-color: orangered;
+    width: 81px;
+    height: 5vh;
+    border-radius: 7px;
+    border: none;
+}
+
+table{
+    margin-top: 68px;
+    width: 58%;
+    margin-left: 56px;
+    font-size: 18px;
+    font-weight: bold;
+}
+tbody{
+    font-weight: normal;
+}
